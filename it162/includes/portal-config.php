@@ -28,14 +28,14 @@ switch(THIS_PAGE){
         $title = "Intisar's IT162 Title Page";
         $logo = 'fa-home';
         $PageID = 'Welcome';
-        $logo_color = ' style="color:#00f"';
+        $logo_color = ' style="color:#AFAFAF"';
     break;
     
     case 'contactme.php':
         $title = "Intisar's IT162 Contact Page";
         $logo = 'fa-pencil-square-o';
         $PageID = 'Contact Intisar';
-        $logo_color = ' style="color:#00f"';
+        $logo_color = ' style="color:#AFAFAF"';
     break;
 
     default:
