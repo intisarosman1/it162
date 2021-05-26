@@ -31,6 +31,13 @@ switch(THIS_PAGE){
         $logo_color = ' style="color:#AFAFAF"';
     break;
     
+    case 'aia.php':
+        $title = "Intisar's IT162 AIA Page";
+        $logo = 'fa-pencil-square-o';
+        $PageID = 'AIA';
+        $logo_color = ' style="color:#AFAFAF"';
+    break;
+
     case 'contactme.php':
         $title = "Intisar's IT162 Contact Page";
         $logo = 'fa-pencil-square-o';
@@ -46,6 +53,7 @@ switch(THIS_PAGE){
 //place URL & labels in the array here for navigation:
     $nav1['index.php'] = "Welcome";
     $nav1['big/index.php'] = "Big";
+    $nav1['aia.php'] = "AIA";
     $nav1['fp/index.php'] = "Final Project";
     $nav1['contactme.php'] = "Contact Intisar";
     
