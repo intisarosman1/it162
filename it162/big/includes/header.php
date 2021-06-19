@@ -8,9 +8,12 @@
 <meta name="robots" content="noindex,nofollow" />
 <meta charset="utf-8">
 <script src="https://use.fontawesome.com/6a71565c22.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
 <link rel="stylesheet" href="css/styles.css" />
 <link rel="stylesheet" href="css/big.css" />
 <link rel="stylesheet" href="css/form.css" />
+<script src="js/script.js"></script>
 </head>
 
 <body>

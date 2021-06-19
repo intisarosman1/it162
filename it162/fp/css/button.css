@@ -1,0 +1,77 @@
+.button {
+  text-decoration: none;
+  display: block;
+  margin: auto;
+  width: 15%;
+  padding: 8px;
+  color: 	#566958;
+  background-color: #98ad9c;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+
+/* TABLET */
+@media all and (min-width:696px) and (max-width:1399px) {
+	
+	
+  img.tablet {
+         width:100%;
+          display:inline-block;
+  }
+  
+  img.desktop, img.phone {
+       display:none;
+    }  
+  
+    .button {
+      text-decoration: none;
+      display: block;
+      margin: auto;
+      width: 30%;
+      padding: 8px;
+      color: 	#566958;
+      background-color: #98ad9c;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 16px;
+      border: 1px solid;
+      border-radius: 8px;
+  }
+  
+  /* Change background color of navigation on selected page */
+  ul.topnav li a.selected {
+      background-color: #ccc;
+      color:#000;
+  }
+}
+
+/* PHONE */
+@media all and (max-width:736px) {
+  
+  img.phone {
+         width:100%;
+          display:inline-block;
+  }
+  
+  img.tablet, img.desktop {
+       display:none;
+    }  
+
+  .button {
+      text-decoration: none;
+      display: block;
+      margin: auto;
+      width: 60%;
+      padding: 8px;
+      color: 	#566958;
+      background-color: #98ad9c;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 16px;
+      border: 1px solid;
+      border-radius: 8px;
+  }
+
+}
+
