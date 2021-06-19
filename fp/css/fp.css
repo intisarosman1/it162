@@ -1,0 +1,156 @@
+/* FP Styles */
+
+/* FP Styles */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+body {
+    background-color:#bfd1c2;
+    padding: 1em;
+}
+
+main {
+    width:65%;
+    color: 	#232523;
+}
+
+section {
+    margin: auto;
+    width: 70%;
+}
+
+main.wrapper {
+    overflow:auto;
+    margin:auto;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h1>a {
+    text-decoration: none;
+    color:rgb(110, 85, 69);
+    font-family: Libre Baskerville;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.logo {
+    color:rgb(255, 255, 255);
+    margin-left:1%;
+    text-shadow:1px 1px #ccc;
+    font-size:1.25em;
+}
+
+div.gallery {
+    text-align:center;
+    padding-top: 3px;
+    
+}
+
+img {
+    padding: 2em;
+}
+
+figure {
+    display:inline-block;
+    margin:.25%;
+}
+
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+	clear:both;
+    padding-top: 14em;
+    display: flex;
+    justify-content: center;
+}
+
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+   main.wrapper {
+		width:80%;
+		margin:auto;
+	}
+
+			
+    img.desktop {
+       		width:50%;
+            display:inline-block;
+    }
+    
+    img.tablet, img.phone {
+       	display:none;
+    	}  
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        		background-color: #ccc;
+        		color:#000;
+   	 }
+}
+
+
+/* TABLET */
+@media all and (min-width:696px) and (max-width:1399px) {
+	
+	
+    img.tablet {
+       		width:100%;
+            display:inline-block;
+    }
+    
+    img.desktop, img.phone {
+       	display:none;
+    	}  
+    
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #ccc;
+        color:#000;
+    }
+}
+
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    img.phone {
+       		width:100%;
+            display:inline-block;
+    }
+    
+    img.tablet, img.desktop {
+       	display:none;
+    	}  
+
+}
